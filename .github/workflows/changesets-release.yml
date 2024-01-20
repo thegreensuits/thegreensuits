@@ -10,7 +10,7 @@ env:
 
 jobs:
   release:
-    if: github.repository == 'thegreensuits/tools'
+    if: github.repository == 'thegreensuits/thegreensuits-tools'
 
     runs-on: ubuntu-latest
 

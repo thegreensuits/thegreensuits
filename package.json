@@ -1,5 +1,5 @@
 {
-  "name": "thegreensuits-tools",
+  "name": "@thegreensuits/thegreensuits-tools",
   "private": "true",
   "scripts": {
     "postinstall": "manypkg check",
