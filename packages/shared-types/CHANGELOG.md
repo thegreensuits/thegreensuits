@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.4
+
+### Patch Changes
+
+- Fix export of DTOs
+
 ## 0.0.3
 
 ### Patch Changes
