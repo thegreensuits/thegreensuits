@@ -22,5 +22,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "repository": "https://github.com/thegreensuits/thegreensuits-tools/tree/master/packages/shared-types"
+  "repository": "https://github.com/thegreensuits/thegreensuits-tools/tree/main/packages/shared-types"
 }
