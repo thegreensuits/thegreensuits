@@ -14,7 +14,7 @@ import { UserProfile, UserProfileAddress } from "src/user/profile";
 import {
   PHONE_NUMBER_REGEX,
   ZIP_CODE_REGEX,
-} from "../constants/regex.constant";
+} from "../../constants/regex.constant";
 
 abstract class UpdateUserProfileAddressDto implements UserProfileAddress {
   @IsString()
