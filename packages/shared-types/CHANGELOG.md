@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.5
+
+### Patch Changes
+
+- Update imports of user
+
 ## 0.0.4
 
 ### Patch Changes
