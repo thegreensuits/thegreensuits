@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.8
+
+### Patch Changes
+
+- Remove state from address
+
 ## 0.0.7
 
 ### Patch Changes
