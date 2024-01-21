@@ -1,4 +1,4 @@
-export interface Credentials {
+export interface UserCredentials {
   version: number;
   lastPassword: string;
   passwordUpdatedAt: number;

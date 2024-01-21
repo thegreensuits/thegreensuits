@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.9
+
+### Patch Changes
+
+- Add StripeCustomerId to user
+
 ## 0.0.8
 
 ### Patch Changes
