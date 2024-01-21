@@ -1,5 +1,6 @@
 import { Credentials } from "./credentials";
 import { UserProfile } from "./profile";
+import { Subscription } from "../subscription";
 
 export interface User {
   id: number;
@@ -10,6 +11,7 @@ export interface User {
   isAdmin: boolean;
   profile: UserProfile;
   credentials: Credentials;
+  subscriptions: Subscription[];
   createdAt: Date;
   updatedAt: Date;
 }

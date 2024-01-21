@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.7
+
+### Patch Changes
+
+- Add subscription
+
 ## 0.0.6
 
 ### Patch Changes
