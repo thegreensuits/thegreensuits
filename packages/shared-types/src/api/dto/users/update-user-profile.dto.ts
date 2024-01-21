@@ -1,6 +1,5 @@
 import { Type } from "class-transformer";
 import {
-  IsAlpha,
   IsDate,
   IsNotEmpty,
   IsObject,
@@ -49,17 +48,24 @@ export abstract class UpdateProfileDto
     Partial<
       Pick<
         UserProfile,
-        "firstName" | "lastName" | "birthDate" | "phoneNumber" | "address"
+        | "displayName"
+        | "firstName"
+        | "lastName"
+        | "birthDate"
+        | "phoneNumber"
+        | "address"
       >
     >
 {
   @IsString()
-  @IsAlpha("fr-FR")
+  @MinLength(1)
+  public displayName?: string;
+
+  @IsString()
   @MinLength(1)
   public firstName?: string;
 
   @IsString()
-  @IsAlpha()
   @MinLength(1)
   public lastName?: string;
 

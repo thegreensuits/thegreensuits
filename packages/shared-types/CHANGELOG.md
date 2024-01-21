@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.6
+
+### Patch Changes
+
+- Add displayName to UpdateUserProfileDto
+
 ## 0.0.5
 
 ### Patch Changes
