@@ -1,18 +1,24 @@
 import { UserCredentials } from "./credentials";
+import { UserIdentifier } from "./identifier";
 import { UserProfile } from "./profile";
 import { Subscription } from "../subscription";
 
 export interface User {
   id: number;
   stripeCustomerId: string;
-  username: string;
-  email: string;
-  password: string;
-  confirmed: boolean;
-  isAdmin: boolean;
+
+  identifier: UserIdentifier;
   profile: UserProfile;
+
+  password: string;
   credentials: UserCredentials;
+
+  activeSubscription: Subscription | null;
   subscriptions: Subscription[];
+
+  isConfirmed: boolean;
+  isAdmin: boolean;
+
   createdAt: Date;
   updatedAt: Date;
 }

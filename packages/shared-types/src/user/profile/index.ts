@@ -9,6 +9,7 @@ export interface UserProfile {
   displayName: string;
   firstName: string;
   lastName: string;
+  fullName: string;
   phoneNumber: string;
   profilePictureUrl: string;
   birthDate: Date;
