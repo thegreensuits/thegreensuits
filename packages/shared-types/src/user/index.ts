@@ -18,6 +18,7 @@ export interface User {
 
   isConfirmed: boolean;
   isAdmin: boolean;
+  hasGuild: boolean;
 
   createdAt: Date;
   updatedAt: Date;

@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.11
+
+### Patch Changes
+
+- Add hasGuild property to User
+
 ## 0.0.10
 
 ### Patch Changes
