@@ -25,4 +25,5 @@ export interface User {
 }
 
 export * from "./credentials";
+export * from "./identifier";
 export * from "./profile";
