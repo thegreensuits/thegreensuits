@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.13
+
+### Patch Changes
+
+- Update UserIdentifier discord property to optional
+
 ## 0.0.12
 
 ### Patch Changes
