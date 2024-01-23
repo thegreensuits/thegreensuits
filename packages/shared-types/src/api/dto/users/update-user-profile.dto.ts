@@ -28,11 +28,6 @@ abstract class UpdateUserProfileAddressDto implements UserProfileAddress {
 
   @IsString()
   @IsNotEmpty()
-  @MinLength(1)
-  public state!: string;
-
-  @IsString()
-  @IsNotEmpty()
   @Matches(ZIP_CODE_REGEX, {
     message: "Le code postal n'est pas valide",
   })
