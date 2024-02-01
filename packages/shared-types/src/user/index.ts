@@ -13,8 +13,7 @@ export interface User {
   password: string;
   credentials: UserCredentials;
 
-  activeSubscription: Subscription | null;
-  subscriptions: Subscription[];
+  subscription: Subscription;
 
   isConfirmed: boolean;
   isAdmin: boolean;

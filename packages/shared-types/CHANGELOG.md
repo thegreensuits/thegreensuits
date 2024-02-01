@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.15
+
+### Patch Changes
+
+- Update User subscription property
+
 ## 0.0.14
 
 ### Patch Changes
