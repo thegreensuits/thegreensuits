@@ -5,6 +5,7 @@ export interface Subscription {
   active: boolean;
   status: string;
   subscriptionId?: string;
+  invoiceUrl: string;
   activeSince?: Date;
   activeUntil?: Date;
 }
