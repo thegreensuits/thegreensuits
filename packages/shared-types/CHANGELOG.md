@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.18
+
+### Patch Changes
+
+- Update UserProfile displayName property to optional
+
 ## 0.0.17
 
 ### Patch Changes

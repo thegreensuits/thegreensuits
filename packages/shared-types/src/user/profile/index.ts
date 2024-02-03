@@ -6,7 +6,7 @@ export interface UserProfileAddress {
 }
 
 export interface UserProfile {
-  displayName: string;
+  displayName?: string;
   firstName: string;
   lastName: string;
   fullName: string;
