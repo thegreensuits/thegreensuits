@@ -57,7 +57,7 @@ importers:
         specifier: ^7.2.0
         version: 7.3.0(typescript@5.4.2)
       typescript:
-        specifier: ^5.3.3
+        specifier: ^5.4.2
         version: 5.4.2
 
   packages/thegreensuits-tsconfig: {}
