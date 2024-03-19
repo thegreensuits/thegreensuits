@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   release:
-    if: github.repository == 'thegreensuits/thegreensuits-tools'
+    if: github.repository == 'thegreensuits/thegreensuits'
 
     runs-on: ubuntu-latest
 

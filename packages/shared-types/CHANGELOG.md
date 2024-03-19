@@ -1,5 +1,17 @@
 # @thegreensuits/shared-types
 
+## 0.0.20
+
+### Patch Changes
+
+- 8123e9b: Update eslint-config package scope
+
+## 0.0.19
+
+### Patch Changes
+
+- ce79ce3: Add new tsconfig package
+
 ## 0.0.18
 
 ### Patch Changes
