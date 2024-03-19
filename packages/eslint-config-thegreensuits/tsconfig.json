@@ -1,5 +1,5 @@
 {
-  "extends": "@thegreensuits/tsconfig/node.json",
+  "extends": "@thegreensuits/tsconfig/react.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

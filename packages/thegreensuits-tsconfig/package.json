@@ -1,0 +1,14 @@
+{
+  "name": "@thegreensuits/tsconfig",
+  "version": "0.0.0",
+  "license": "MIT",
+  "keywords": [
+    "tsconfig",
+    "thegreensuits"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": "https://github.com/thegreensuits/thegreensuits/tree/main/packages/thegreensuits-tsconfig"
+}
