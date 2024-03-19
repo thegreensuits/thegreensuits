@@ -1,7 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "experimentalDecorators": true,
-  },
+  "extends": "@thegreensuits/tsconfig/node.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
 }

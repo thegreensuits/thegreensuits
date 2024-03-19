@@ -3,16 +3,18 @@
   "version": "0.0.18",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "license": "MIT",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs --dts",
-    "dev": "pnpm build --watch"
+    "build": "tsup",
+    "dev": "tsup --watch"
   },
   "devDependencies": {
+    "@thegreensuits/tsconfig": "workspace:*",
     "@types/node": "^20.6.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "tslib": "^2.6.2",
-    "tsup": "^7.2.0",
+    "tsup": "^8.0.0",
     "typescript": "^5.4.2"
   },
   "peerDependencies": {
@@ -20,7 +22,8 @@
     "class-validator": ">= 0.14.x"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
-  "repository": "https://github.com/thegreensuits/thegreensuits-tools/tree/main/packages/shared-types"
+  "repository": "https://github.com/thegreensuits/thegreensuits/tree/main/packages/shared-types"
 }
