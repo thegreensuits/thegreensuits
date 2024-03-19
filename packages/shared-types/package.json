@@ -18,8 +18,8 @@
     "typescript": "^5.4.2"
   },
   "peerDependencies": {
-    "class-transformer": ">= 0.5.x",
-    "class-validator": ">= 0.14.x"
+    "class-transformer": ">=0.5.x",
+    "class-validator": ">=0.14.x"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",

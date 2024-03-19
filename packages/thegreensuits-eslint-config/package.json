@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-thegreensuits",
+  "name": "@thegreensuits/eslint-config",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -42,5 +42,5 @@
     "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
-  "repository": "https://github.com/thegreensuits/thegreensuits/tree/main/packages/eslint-config-thegreensuits"
+  "repository": "https://github.com/thegreensuits/thegreensuits/tree/main/packages/thegreensuits-eslint-config"
 }
