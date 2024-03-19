@@ -1,5 +1,11 @@
 # @thegreensuits/shared-types
 
+## 0.0.19
+
+### Patch Changes
+
+- ce79ce3: Add new tsconfig package
+
 ## 0.0.18
 
 ### Patch Changes
