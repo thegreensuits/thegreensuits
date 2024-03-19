@@ -20,6 +20,6 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true
   },
-  "include": ["**/*.ts", "packages/shared-types/tsconfig.json"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

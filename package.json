@@ -1,6 +1,5 @@
 {
-  "name": "@thegreensuits/thegreensuits-tools",
-  "private": "true",
+  "name": "@thegreensuits/root",
   "scripts": {
     "postinstall": "manypkg check",
     "prepare": "husky install && pnpm build",
@@ -34,7 +33,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --fix"
+    "*.{ts,tsx}": "eslint . --ext .ts,.tsx --fix"
   },
   "workspaces": [
     "packages/*"
