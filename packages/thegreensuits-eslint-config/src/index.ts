@@ -11,7 +11,6 @@ const config: Linter.Config = {
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "universe/native",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
