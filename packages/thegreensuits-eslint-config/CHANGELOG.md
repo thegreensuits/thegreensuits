@@ -1,5 +1,11 @@
 # eslint-config-thegreensuits
 
+## 0.0.3
+
+### Patch Changes
+
+- 453abeb: Remove eslint-config-universe from eslint-config dependencies
+
 ## 0.0.2
 
 ### Patch Changes
